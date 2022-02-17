@@ -1,0 +1,23 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+html, body, .menu-wrap{
+  height: 100vh;
+  min-height: 100% !important;
+  
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-robot);
+  background: var(--grey-color);
+}

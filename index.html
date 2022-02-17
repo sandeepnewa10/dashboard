@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+     <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+    <link rel="stylesheet" href="/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="/dist/css/style.css" />
+
+   
+  </head>
+  <body>
+
+<div class="container">
+  <div class="row">
+    <div class="col-2 col-sm-2 col-md-1  col-lg-1 menu-wrap">
+      <ul class="menu-wrap__menu">
+        <li class="active"><a href="#"><i class="fa-solid fa-house"></i></a> </li>
+        <li><a href="#"><i class="fa-solid fa-gear"></i></a></li>
+        <li><a href="#"><i class="fa-solid fa-wallet"></i></a></li>
+        <li><a href="#"> <i class="fa-brands fa-docker"></i></a></li>
+        <li><a href="#"><i class="fa-solid fa-square-poll-vertical"></i></a></li>
+        <li><a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i></a></li>
+      </ul>
+    </div>
+    <div class=" col-10 col-sm-10 col-md-11 col-lg-11 ">
+      <div class="row">
+        <div class="main-wrap">
+        <!-- <header class="header">
+          <div class="header__title">
+            <span>Welcome to Kopiku Dashboard</span>
+            <h2>Lets choose menu</h2>
+          </div>
+          <div class="header__search">
+            <input type="text" class="" placeholder="testes">
+            <button type="submit" searchbtn>
+              <i>?</i>
+            </button>
+          </div>
+          <div class="header__notice">
+            <a href="#"><i class="fa-solid fa-bell"></i></a>
+            </div>
+          <div class="header__user">
+              <div class="header__user-image"></div>
+              <div class="header__user-info">
+                <span>Admin</span>
+                <h3>Alex Jorand</h3>
+              </div>
+          </div>
+          <div class="header__link">
+            <span><a href="#">Add new menu</a></span>
+          </div>
+        </header> -->
+        <main class="content-wrap row">
+            <div class="content-wrap__content col-xs-12 col-md-12 col-lg-8">
+              <div class="second_menu">
+              <ul>
+                <li><a href="#"><i class="lni lni-coffee-cup"></i></i><span>Coffee</span></a></li>
+                <li><a href="#"><i class="lni lni-coffee-cup"></i></i><span>Tea</span></a></li>
+                <li class="active"><a href="#"><i class="lni lni-coffee-cup"></i></i><span>Beans</span></a></li>
+                <li><a href="#"><i class="lni lni-coffee-cup"></i></i><span>Bundles</span></a></li>
+                <li><a href="#"><i class="lni lni-coffee-cup"></i></i><span>Snack</span></a></li>
+              </ul>      
+           </div>
+            <div class="content-top">
+              <h2>Beans menu</h2>
+              <span>12 beans ready</span>
+            </div>
+            <div class="block row">
+              <div class="col-sm-12 col-md-12 col-lg-6">
+              <div class="block__block-list">
+                <div class="block__block-list__content">
+                  <div class="content-image">
+                    <img src="/images/image1.jpg" title="product" alt="product" />
+                  </div>
+                  <div class="content-dsc">
+                    <h3>Indonesia Bean</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quo.
+                    </p>
+                    <span class="price">$ 35.00</span>
+                  </div>
+                </div>
+                <div class="block__block-list__type">
+                  <h4>Roasting Type</h4>
+                  <ul>
+                    <li><a href="#">25%</a></li>
+                    <li class="active"><a href="#">50%</a></li>
+                    <li><a href="#">75%</a></li>
+                    <li><a href="#">100%</a></li>
+                  </ul>
+                </div>
+                <div class="block__block-list__type">
+                  <h4>Volume Pack</h4>
+                  <ul>
+                    <li><a href="#">250g</a></li>
+                    <li class="active"><a href="#">500g</a></li>
+                    <li><a href="#">750g</a></li>
+                  </ul>
+                </div>
+                <button type="submit" class="btn-normal active">Add to bill</button>
+              </div>
+              </div>
+            
+              <div class="col-sm-12 col-md-12 col-lg-6">
+                <div class="block__block-list">
+                  <div class="block__block-list__content">
+                    <div class="content-image">
+                      <img src="/images/image2jpg" title="product" alt="product" />
+                    </div>
+                    <div class="content-dsc">
+                      <h3>Dark Bean</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quo.
+                      </p>
+                      <span class="price">$ 45.00</span>
+                    </div>
+                  </div>
+                  <div class="block__block-list__type">
+                    <h4>Roasting Type</h4>
+                    <ul>
+                      <li><a href="#">25%</a></li>
+                      <li><a href="#">50%</a></li>
+                      <li><a href="#">75%</a></li>
+                      <li class="active"><a href="#">100%</a></li>
+                    </ul>
+                  </div>
+                  <div class="block__block-list__type">
+                    <h4>Volume Pack</h4>
+                    <ul>
+                      <li><a href="#">250g</a></li>
+                      <li><a href="#">500g</a></li>
+                      <li class="active"><a href="#">750g</a></li>
+                    </ul>
+                  </div>
+                  <button type="submit" class="btn-normal active">Add to bill</button>
+                </div>
+                </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+              <div class="block__block-list">
+                <div class="block__block-list__content">
+                  <div class="content-image">
+                    <img src="/images/image3.jpg" title="product" alt="product" />
+                  </div>
+                  <div class="content-dsc">
+                    <h3>Indonesia Bean</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quo.
+                    </p>
+                    <span class="price">$ 35.00</span>
+                  </div>
+                </div>
+            
+                <button type="submit" class="btn-normal">View details</button>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+              <div class="block__block-list">
+                <div class="block__block-list__content">
+                  <div class="content-image">
+                    <img src="/images/image4.jpg" title="product" alt="product" />
+                  </div>
+                  <div class="content-dsc">
+                    <h3>Indonesia Bean</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quo.
+                    </p>
+                    <span class="price">$ 35.00</span>
+                  </div>
+                </div>
+            
+                <button type="submit" class="btn-normal">View details</button>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+              <div class="block__block-list">
+                <div class="block__block-list__content">
+                  <div class="content-image">
+                    <img src="/images/image5.jpg" title="product" alt="product" />
+                  </div>
+                  <div class="content-dsc">
+                    <h3>Indonesia Bean</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quo.
+                    </p>
+                    <span class="price">$ 35.00</span>
+                  </div>
+                </div>
+            
+                <button type="submit" class="btn-normal">View details</button>
+              </div>
+            </div>
+          </div>
+          
+            </div>
+            <div class="order-wrap col-sm-12  col-md-12 col-lg-4">
+
+                <div class="order-wrap__widget">
+                  <div class="order-wrap__widget-title"><h3>Bills</h3> <span>Order #3243</span></div>
+                  <div class="order-wrap__widget-menulist">
+                    <ul>
+                      <li><a href="#">Dine In</a></li>
+                      <li><a href="#">Take Away</a></li>
+                      <li><a href="#">Delivery</a></li>
+                    </ul>
+                  </div>
+                  <div class="order-wrap__widget-itemlist">
+                      <div class="order-wrap__widget-itemlist--image"><img src="/images/image1.jpg" title="product1" alt="product1" /></div>
+                      <div class="order-wrap__widget-itemlist--content">
+                        <h3>Peru Beans</h3>
+                        <ul>
+                          <li>Beans</li>
+                          <li>75%</li>
+                          <li>250g</li>
+                        </ul>
+                        <span class="price">$ 60.00</span>
+                      </div>
+                  </div>
+                  <div class="order-wrap__widget-itemlist">
+                    <div class="order-wrap__widget-itemlist--image"><img src="/images/image2.jpg" title="product1" alt="product1" /></div>
+                    <div class="order-wrap__widget-itemlist--content">
+                      <h3>Peru Beans</h3>
+                      <ul>
+                        <li>Beans</li>
+                        <li>75%</li>
+                        <li>250g</li>
+                      </ul>
+                      <span class="price">$ 60.00</span>
+                    </div>
+                </div>
+                <div class="order-wrap__widget-itemlist">
+                  <div class="order-wrap__widget-itemlist--image"><img src="/images/image3.jpg" title="product1" alt="product1" /></div>
+                  <div class="order-wrap__widget-itemlist--content">
+                    <h3>Peru Beans</h3>
+                    <ul>
+                      <li>Beans</li>
+                      <li>75%</li>
+                      <li>250g</li>
+                    </ul>
+                    <span class="price">$ 60.00</span>
+                  </div>
+              </div>
+
+                  <div class="order-wrap__widget-item-rate">
+                    <span class="item-label">Items</span>
+                    <span class="item-price">$ 102.50</span>
+                  </div>
+                  <div class="order-wrap__widget-item-rate">
+                    <span class="item-label">Discounts</span>
+                    <span class="item-price discount">-$ 3.00</span>
+                  </div>
+                  <div class="order-wrap__widget-item-rate total">
+                    <span class="item-label">Total</span>
+                    <span class="item-price">$ 99.50</span>
+                  </div>
+                  <div class="order-wrap__payment">
+                    <h4>Payment</h4>
+                    <ul>
+                      <li class="active"><a href="#">Cash</a></li>
+                      <li><a href="#">Debit</a></li>
+                      <li><a href="#">E-Wallet</a></li>
+                    </ul>
+                    <button class="btn-normal active">Checkout</button>
+                  </div>
+
+                </div>
+
+
+            </div>
+        </main>
+
+
+
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- <div class="wrapper">
+  <div class="menu-wrap">
+    <ul class="menu-wrap__menu">
+      <li class="active"><a href="#"><i class="fa-solid fa-house"></i></a> </li>
+      <li><a href="#"><i class="fa-solid fa-gear"></i></a></li>
+      <li><a href="#"><i class="fa-solid fa-wallet"></i></a></li>
+      <li><a href="#"> <i class="fa-brands fa-docker"></i></a></li>
+      <li><a href="#"><i class="fa-solid fa-square-poll-vertical"></i></a></li>
+      <li><a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i></a></li>
+    </ul>
+  </div>
+  <div class="main-wrap">
+    <header class="header">
+      <div class="header__title">
+        <span>Welcome to Kopiku Dashboard</span>
+        <h2>Lets choose menu</h2>
+      </div>
+      <div class="header__search">
+        <input type="text" class="" placeholder="testes">
+        <button type="submit" searchbtn>
+          <i>?</i>
+        </button>
+      </div>
+      <div class="header__notice">
+        <a href="#"><i class="fa-solid fa-bell"></i></a>
+        </div>
+      <div class="header__user">
+          <div class="header__user-image"></div>
+          <div class="header__user-info">
+            <span>Admin</span>
+            <h3>Alex Jorand</h3>
+          </div>
+      </div>
+      <div class="header__link">
+        <span><a href="#">Add new menu</a></span>
+      </div>
+    </header>
+    <main>
+      <div class="content-wrap"></div>
+      <div class="widget-wrap"></div>
+    </main>
+  </div>
+</div> -->
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js" integrity="sha512-yFjZbTYRCJodnuyGlsKamNE/LlEaEAxSUDe5+u61mV8zzqJVFOH7TnULE2/PP/l5vKWpUNnF4VGVkXh3MjgLsg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../dist/js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+@use '../util/'as *;
+
+.header {
+  display: grid;
+  grid-template-columns: rem(253) rem(316) rem(40) rem(117) rem(147);
+  grid-column-gap: rem(34);
+  border-bottom: 1px solid #ececec;
+  padding-bottom: rem(28);
+  margin-bottom: rem(30);
+
+  &__title {
+    span {
+      font-size: rem(12);
+      color: var(--grey-color);
+      margin-bottom: rem(10);
+      display: flex;
+    }
+
+    h2 {
+      font-size: rem(20);
+      font-weight: 500;
+    }
+  }
+
+  // &__search{}
+  // &__notice{}
+  // &__user{}
+  // &__link{}
+}

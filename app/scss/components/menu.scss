@@ -1,0 +1,35 @@
+@use '../util/'as *;
+
+.menu-wrap {
+  justify-content: center;
+  background: var(--white-bg);
+  display: flex;
+
+  &__menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      margin-bottom: rem(56);
+
+      a {
+        font-size: rem(20);
+        color: var(--grey-color);
+
+      }
+
+      &:hover,
+      &.active {
+        a {
+          color: var(--orange-color);
+
+          &::before {
+            content: "";
+            background-color: var(--orange-color);
+          }
+        }
+      }
+    }
+  }
+}
